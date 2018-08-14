@@ -1,10 +1,10 @@
+"use strict";
 // interface IAccount {
 //     firstName: string;
 //     age: number;
 // }
 //
 // const me = IAccount;
-
 // const person = {
 //     firstName: 'Igor',
 //     age: 32
@@ -15,8 +15,6 @@
 //     age: 32,
 //     firstName: 'asdasd',
 // };
-
-
 // const account: {
 //     readonly firstName: string;
 //     readonly age?: number;
@@ -26,11 +24,9 @@
 // };
 //
 // account.age = 40;
-
 // class A {}
 //
 // let b: A;
-
 // type name = {
 //     firstName: string;
 // };
@@ -63,10 +59,8 @@
 //         age: 32
 //     }
 // ];
-
 // arr[100] = '1';
 // arr.push('s');
-
 // type Admin = {
 //     roles: [string]
 // };

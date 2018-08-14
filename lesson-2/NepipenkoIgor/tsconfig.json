@@ -67,6 +67,6 @@
     /* Enables experimental support for emitting type metadata for decorators. */
   },
   "exclude": [
-    "./lesson-2/class-work.ts"
+    "./function.ts"
   ]
 }
