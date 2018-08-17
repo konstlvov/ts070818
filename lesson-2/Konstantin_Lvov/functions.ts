@@ -1,6 +1,6 @@
-// Константин Львов
-// домашнее задание к уроку № 2
-// в таком виде tslint перестал ругаться
+// РљРѕРЅСЃС‚Р°РЅС‚РёРЅ Р›СЊРІРѕРІ
+// РґРѕРјР°С€РЅРµРµ Р·Р°РґР°РЅРёРµ Рє СѓСЂРѕРєСѓ в„– 2
+// РІ С‚Р°РєРѕРј РІРёРґРµ tslint РїРµСЂРµСЃС‚Р°Р» СЂСѓРіР°С‚СЊСЃСЏ
 function isInArray(a: number[], ...xs: number[]): boolean {
     for (const x in xs) {
         const xsElement: number = xs[x];
@@ -27,7 +27,7 @@ function summator(...xs: any[]): number {
     return r;
 }
 
-// stackoverflow нам в помощь:
+// stackoverflow РЅР°Рј РІ РїРѕРјРѕС‰СЊ:
 // https://stackoverflow.com/questions/1960473/get-all-unique-values-in-a-javascript-array-remove-duplicates
 function getUnique(xs: any[]): any[] {
     return xs.filter( (elementVal: any, index: number, arr: any[]) => arr.indexOf(elementVal) === index);
@@ -35,7 +35,7 @@ function getUnique(xs: any[]): any[] {
 
 
 function isLetter(sym: string): boolean {
-    return new Boolean(sym.match(/[a-zа-яё]/i)).valueOf();
+    return new Boolean(sym.match(/[a-zР°-СЏС‘]/i)).valueOf();
 }
 
 function makeBadWord(word: string): string {
