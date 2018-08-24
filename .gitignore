@@ -1,3 +1,5 @@
 .idea
 node_modules
 **/**.*js
+/lesson-2/Konstantin_Lvov/functions.js
+/lesson-2/NepipenkoIgor/functions.js

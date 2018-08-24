@@ -61,3 +61,5 @@ function makeBadSentence(sentence: string): string {
     return words.map((word: string, index:number, arr: string[]) => makeBadWord(word)).join(' ');
 }
 
+console.log('test');
+
