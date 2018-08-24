@@ -11,7 +11,8 @@ function isInArray(a: number[], ...xs: number[]): boolean {
     return true;
 }
 
-function summator(...xs: any[]): number {
+type TStringOrNumber = string | number;
+function summator(...xs: TStringOrNumber[]): number {
     let r: number = 0;
     for (const x in xs) {
         const elem: any = xs[x];
@@ -61,5 +62,5 @@ function makeBadSentence(sentence: string): string {
     return words.map((word: string, index:number, arr: string[]) => makeBadWord(word)).join(' ');
 }
 
-console.log('test');
+console.log(summator(1, 2, '3'));
 
